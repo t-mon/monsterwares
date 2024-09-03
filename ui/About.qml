@@ -365,6 +365,26 @@ Page {
                 Column {
                     spacing: units.gu(1)
                     Text {
+                        // TRANSLATORS: "Author" section in the "About" view
+                        text: i18n.tr("Click packaging")
+                        font.weight: Font.DemiBold
+                        style: Text.Outline
+                        styleColor: "white"
+                        font.pixelSize: units.gu(4)
+                    }
+
+                    Text {
+                        anchors.left: parent.left
+                        anchors.leftMargin: units.gu(2)
+                        text: "Jonatan Hatakeyama Zeidler"
+                        font.weight: Font.DemiBold
+                        font.pixelSize: units.gu(3)
+                    }
+                }
+
+                Column {
+                    spacing: units.gu(1)
+                    Text {
                         // TRANSLATORS: Reference to the translations in the "About" view
                         text: i18n.tr("Translations")
                         font.weight: Font.DemiBold
